@@ -65,11 +65,13 @@ img {
     position: fixed;
     z-index: 100;
     background-color: white;
-    width: 100vw;
+    width: 100%;
+    
 
 }
 #site-title {
-    margin: 15px 0 5px 55px;
+    margin: 15px 0 5px 0;
+    margin-left: 370px;
 }
 #site-title a:hover {
     opacity: 1;
@@ -92,7 +94,7 @@ img {
     height: inherit;
     width: 100vw;
     margin: 0 auto;
-    padding-left: 40px;
+    margin-left: 360px;
 }
 #nav li {
     font-size: 0.875rem;
@@ -263,14 +265,14 @@ img {
         padding-bottom: 30px;
     }
     /* header */
-    #site-title h1 {
-        margin-left: 15px;
+    #site-title {
+        margin-left: 20px;
     }
     #nav {
         overflow-x: scroll;
     }
     #nav ul {
-        padding-left: 10px;
+        margin-left: 0px;
     }
     #nav li:last-child {
         padding-right: 20px;
